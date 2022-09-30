@@ -3,6 +3,10 @@ package com.scenwise.web.Models;
 import java.sql.Timestamp;
 import java.time.Instant;
 
+/**
+ * Model for traffic speed / travel time.
+ * For our purposes these two have identical fields.
+ */
 public class Measurement {
   public static final String TRAFFIC_SPEED_PATH = "src/main/resources/xml/trafficspeed.xml";
   public static final String TRAVEL_TIME_PATH = "src/main/resources/xml/traveltime.xml";
@@ -12,6 +16,13 @@ public class Measurement {
   private Timestamp measurementTime;
   private boolean isUpToDate;
 
+  /**
+   * 
+   * @param siteReferenceId: site location id
+   * @param siteVersion site location version
+   * @param publicationInstant time of publication
+   * @param measurementInstant (default) time measurement
+   */
   public Measurement(
       String siteReferenceId,
       int siteVersion,

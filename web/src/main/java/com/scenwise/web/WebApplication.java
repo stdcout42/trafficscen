@@ -33,6 +33,11 @@ public class WebApplication {
 		SpringApplication.run(WebApplication.class, args);
 	}
 
+	/**
+	 * Hardwired "if update" for now.
+	 * It's simply a file that states "true" or "false"
+	 * depending on whether an update is required
+	 */
 	private static void updateIfNeeded() {
 		boolean requiresUpdate = false;
 		try (Scanner scanner = new Scanner(Paths.get(needUpdateFile))) {
@@ -49,7 +54,7 @@ public class WebApplication {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			parseAllAndCreateTables();			
+			parseAllAndCreateTables();
 		}
 	}
 
@@ -71,8 +76,6 @@ public class WebApplication {
 		}
 		return "{\"status\": \"oops\"}";
 	}
-
-	
 
 	private static void parseAllAndCreateTables() {
 		Long startTime = System.currentTimeMillis();

@@ -15,6 +15,15 @@ import org.xml.sax.SAXException;
 import com.scenwise.web.Models.SiteMeasurement;
 
 
+/**
+ * Reverse look up by using nominatim
+ * https://nominatim.org/
+ * 
+ * Each (site) measurement's GPS coordinates are fed to the nominatim
+ * server -- the result is parsed
+ * We're only using Utrecht data therefore we only need to check if there is a valid
+ * result returned (any gps outside of Utrecht will return invalid)
+ */
 public class ReverseGeoCoder {
   private static final Logger LOGGER = Logger.getLogger(ReverseGeoCoder.class.getName());
 
@@ -27,7 +36,6 @@ public class ReverseGeoCoder {
         DocumentBuilderFactory dBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = dBuilderFactory.newDocumentBuilder();
         Document doc = documentBuilder.parse("http://172.17.0.1:9999/reverse.php?lat="
-        // Document doc = documentBuilder.parse("http://localhost:8088/reverse.php?lat="
             + latitude + "&lon=" + longitude);
         doc.getDocumentElement().normalize();
         Element element = (Element) doc.getElementsByTagName("state").item(0);

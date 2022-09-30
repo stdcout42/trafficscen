@@ -13,6 +13,10 @@ import java.util.logging.Logger;
 
 import com.scenwise.web.Models.Measurement;
 
+/**
+ * DB access for traffic speed & travel times as these two have
+ * identical table schemas (for our purposes)
+ */
 public class MeasurementDAO
     implements TrafficDAO<Measurement> {
   private static final Logger LOGGER = Logger.getLogger(MeasurementDAO.class.getName());
@@ -25,8 +29,6 @@ public class MeasurementDAO
     this.table = table;
     createTableIfNotExists();
   }
-
-
 
   @Override
   public void batchSave(Collection<Measurement> measurements) {
@@ -60,7 +62,6 @@ public class MeasurementDAO
 
   }
 
-
   @Override
   public void createTableIfNotExists() {
     connection.ifPresent(conn -> {
@@ -87,10 +88,5 @@ public class MeasurementDAO
       }
     });
   }
-
-
-
-
-
 
 }

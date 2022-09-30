@@ -13,6 +13,9 @@ import java.util.logging.Logger;
 
 import com.scenwise.web.Models.SiteMeasurement;
 
+/**
+ * DB access for the site locations
+ */
 public class SiteMeasurementDAO implements TrafficDAO<SiteMeasurement> {
   private static final Logger LOGGER = Logger.getLogger(SiteMeasurementDAO.class.getName());
   private final Optional<Connection> connection;

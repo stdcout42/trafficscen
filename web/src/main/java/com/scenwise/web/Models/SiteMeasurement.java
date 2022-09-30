@@ -13,17 +13,27 @@ public class SiteMeasurement {
 
   public static String filepath = "src/main/resources/xml/measurement.xml";
 
+  /**
+   * 
+   * @param recordId:        site location id
+   * @param recordVersion:   site location version
+   * @param latitude:
+   * @param longitude
+   * @param publicationTime: publication time of data
+   * @param inUtrecht:       whether the GPS indicates "in utrecht",
+   *                         this value is computed through reverse look up
+   */
   public SiteMeasurement(
       String recordId,
       int recordVersion,
-      double d,
-      double e,
+      double latitude,
+      double longitude,
       Instant publicationTime,
       boolean inUtrecht) {
     this.recordId = recordId;
     this.recordVersion = recordVersion;
-    this.latitude = d;
-    this.longitude = e;
+    this.latitude = latitude;
+    this.longitude = longitude;
     this.publicationTime = Timestamp.from(publicationTime);
     this.inUtrecht = inUtrecht;
   }

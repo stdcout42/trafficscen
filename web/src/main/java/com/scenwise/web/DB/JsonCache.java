@@ -2,9 +2,16 @@ package com.scenwise.web.DB;
 
 import java.time.Instant;
 
+/**
+ * Pseudo-cache: Production would use something like Redis
+ */
 public class JsonCache {
   private Instant lastCacheTime;
   private String jsonString;
+  /**
+   * 
+   * @param jsonString: the json string to be cached
+   */
   public JsonCache(String jsonString) {
     this.lastCacheTime = Instant.now();
     this.jsonString = jsonString;

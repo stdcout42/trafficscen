@@ -19,6 +19,9 @@ import com.scenwise.web.XmlHandlers.SiteHandler;
 
 
 
+/**
+ * Initiates parsing of XML files
+ */
 public class TrafficDataManager {
 
   public static void parseAndInsertSiteMeasurements(String filepath) {
