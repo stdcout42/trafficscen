@@ -67,9 +67,9 @@ public class WebApplication {
 		}
 
 		SiteMeasurementDAO siteMeasurementDAO = new SiteMeasurementDAO();
+		Long startTime = System.currentTimeMillis();
 		Optional<String> json = siteMeasurementDAO.getCombinedJsonStr();
 		if (json.isPresent() && !json.isEmpty()) {
-			Long startTime = System.currentTimeMillis();
 			jsonCache = new JsonCache(json.get());
 			LOGGER.info(Long.toString(System.currentTimeMillis() - startTime) + "ms to query.");
 			return json.get();

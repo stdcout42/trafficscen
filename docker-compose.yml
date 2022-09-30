@@ -4,8 +4,8 @@ services:
     build: web 
     depends_on:
       - nominatim
-    # command: ["/wait-for-it.sh", "nominatim:8123", "--timeout=500", "--", "./gradlew", "bootRun"]
-    command: ["./gradlew", "bootRun"]
+    command: ["./wait-for-it.sh", "nominatim:8123", "--timeout=1200", "--", "./gradlew", "bootRun"]
+    #command: ["./gradlew", "bootRun"]
     ports:
       - "8080:8080"
     volumes:
