@@ -1,0 +1,936 @@
+2022-09-30 11:22:17.337  INFO 462344 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 462344 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:22:17.339  INFO 462344 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:22:17.821  INFO 462344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:22:17.826  INFO 462344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:22:17.827  INFO 462344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:22:17.869  INFO 462344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:22:17.869  INFO 462344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 499 ms
+2022-09-30 11:22:18.034  INFO 462344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:22:18.041  INFO 462344 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.935 seconds (JVM running for 1.115)
+2022-09-30 11:22:22.179  INFO 462344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:22:22.180  INFO 462344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:22:22.181  INFO 462344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:23:19.010  INFO 463121 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 463121 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:23:19.011  INFO 463121 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:23:19.467  INFO 463121 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:23:19.473  INFO 463121 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:23:19.473  INFO 463121 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:23:19.517  INFO 463121 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:23:19.517  INFO 463121 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 479 ms
+2022-09-30 11:23:19.687  INFO 463121 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:23:19.695  INFO 463121 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.912 seconds (JVM running for 1.115)
+2022-09-30 11:23:23.382  INFO 463121 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:23:23.383  INFO 463121 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:23:23.384  INFO 463121 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:24:02.746  INFO 463872 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 463872 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:24:02.747  INFO 463872 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:24:03.152  INFO 463872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:24:03.157  INFO 463872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:24:03.157  INFO 463872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:24:03.198  INFO 463872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:24:03.198  INFO 463872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 426 ms
+2022-09-30 11:24:03.352  INFO 463872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:24:03.359  INFO 463872 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.835 seconds (JVM running for 1.022)
+2022-09-30 11:24:07.932  INFO 463872 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:24:07.933  INFO 463872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:24:07.934  INFO 463872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:26:22.064  INFO 465430 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 465430 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:26:22.066  INFO 465430 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:26:22.486  INFO 465430 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:26:22.491  INFO 465430 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:26:22.492  INFO 465430 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:26:22.533  INFO 465430 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:26:22.534  INFO 465430 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2022-09-30 11:26:22.695  INFO 465430 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:26:22.702  INFO 465430 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.867 seconds (JVM running for 1.05)
+2022-09-30 11:26:25.676  INFO 465430 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:26:25.677  INFO 465430 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:26:25.678  INFO 465430 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:27:06.795  INFO 466085 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 466085 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:27:06.797  INFO 466085 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:27:07.223  INFO 466085 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:27:07.228  INFO 466085 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:27:07.228  INFO 466085 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:27:07.269  INFO 466085 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:27:07.270  INFO 466085 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 447 ms
+2022-09-30 11:27:07.440  INFO 466085 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:27:07.447  INFO 466085 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.873 seconds (JVM running for 1.059)
+2022-09-30 11:27:21.765  INFO 466438 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 466438 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:27:21.767  INFO 466438 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:27:22.183  INFO 466438 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:27:22.189  INFO 466438 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:27:22.189  INFO 466438 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:27:22.231  INFO 466438 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:27:22.231  INFO 466438 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 437 ms
+2022-09-30 11:27:22.393  INFO 466438 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:27:22.401  INFO 466438 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.86 seconds (JVM running for 1.043)
+2022-09-30 11:27:27.012  INFO 466438 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:27:27.012  INFO 466438 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:27:27.013  INFO 466438 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:34:17.230  INFO 470732 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 470732 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:34:17.231  INFO 470732 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:34:17.661  INFO 470732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:34:17.666  INFO 470732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:34:17.666  INFO 470732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:34:17.708  INFO 470732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:34:17.708  INFO 470732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 451 ms
+2022-09-30 11:34:17.866  INFO 470732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:34:17.873  INFO 470732 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.855 seconds (JVM running for 1.052)
+2022-09-30 11:34:24.431  INFO 470732 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:34:24.431  INFO 470732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:34:24.432  INFO 470732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:34:48.836  INFO 470732 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : Serving from cache.
+2022-09-30 11:35:23.391  INFO 470732 --- [http-nio-8080-exec-3] com.scenwise.web.DB.SiteMeasurementDAO   : Serving from cache.
+2022-09-30 11:35:27.395  INFO 470732 --- [http-nio-8080-exec-4] com.scenwise.web.DB.SiteMeasurementDAO   : Serving from cache.
+2022-09-30 11:43:45.615  INFO 5823 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 5823 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:43:45.636  INFO 5823 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:43:46.261  INFO 5823 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:43:46.266  INFO 5823 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:43:46.266  INFO 5823 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:43:46.372  INFO 5823 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:43:46.373  INFO 5823 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 704 ms
+2022-09-30 11:43:46.529  INFO 5823 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:43:46.535  INFO 5823 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 1.213 seconds (JVM running for 1.598)
+2022-09-30 11:45:21.303  INFO 7473 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on cohete-grande with PID 7473 (/home/sam/project/web/build/classes/java/main started by sam in /home/sam/project/web)
+2022-09-30 11:45:21.305  INFO 7473 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:45:21.718  INFO 7473 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:45:21.723  INFO 7473 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:45:21.723  INFO 7473 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:45:21.765  INFO 7473 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:45:21.765  INFO 7473 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 435 ms
+2022-09-30 11:45:21.918  INFO 7473 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:45:21.925  INFO 7473 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.839 seconds (JVM running for 1.037)
+2022-09-30 11:45:26.536  INFO 7473 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:45:26.536  INFO 7473 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:45:26.537  INFO 7473 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:45:26.557  INFO 7473 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 12:00:58.735  INFO 7473 --- [http-nio-8080-exec-3] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 12:00:58.736  INFO 7473 --- [http-nio-8080-exec-3] com.scenwise.web.DB.SiteMeasurementDAO   : Serving from cache.
+2022-09-30 10:09:49.100  INFO 311 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 3cc401b908e0 with PID 311 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:09:49.101  INFO 311 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:09:49.558  INFO 311 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:09:49.564  INFO 311 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:09:49.564  INFO 311 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:09:49.626  INFO 311 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:09:49.626  INFO 311 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 492 ms
+2022-09-30 10:09:49.788  INFO 311 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:09:49.795  INFO 311 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.965 seconds (JVM running for 1.208)
+2022-09-30 10:10:03.920  INFO 311 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:10:03.920  INFO 311 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:10:03.921  INFO 311 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 10:10:03.938  INFO 311 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:10:04.402 ERROR 311 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : null
+
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221) ~[na:na]
+	at java.base/java.util.Optional.<init>(Optional.java:107) ~[na:na]
+	at java.base/java.util.Optional.of(Optional.java:120) ~[na:na]
+	at com.scenwise.web.DB.SiteMeasurementDAO.lambda$getCombinedJsonStr$1(SiteMeasurementDAO.java:75) ~[main/:na]
+	at java.base/java.util.Optional.flatMap(Optional.java:294) ~[na:na]
+	at com.scenwise.web.DB.SiteMeasurementDAO.getCombinedJsonStr(SiteMeasurementDAO.java:58) ~[main/:na]
+	at com.scenwise.web.WebApplication.results(WebApplication.java:34) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-09-30 10:17:39.103  INFO 245 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 3cc401b908e0 with PID 245 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:17:39.104  INFO 245 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:17:39.527  INFO 245 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:17:39.532  INFO 245 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:17:39.532  INFO 245 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:17:39.593  INFO 245 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:17:39.594  INFO 245 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 463 ms
+2022-09-30 10:17:39.768  INFO 245 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:17:39.776  INFO 245 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.898 seconds (JVM running for 1.149)
+2022-09-30 10:17:52.205  INFO 245 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:17:52.206  INFO 245 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:17:52.206  INFO 245 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-30 10:17:52.226  INFO 245 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:17:52.514 ERROR 245 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : null
+
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221) ~[na:na]
+	at java.base/java.util.Optional.<init>(Optional.java:107) ~[na:na]
+	at java.base/java.util.Optional.of(Optional.java:120) ~[na:na]
+	at com.scenwise.web.DB.SiteMeasurementDAO.lambda$getCombinedJsonStr$1(SiteMeasurementDAO.java:75) ~[main/:na]
+	at java.base/java.util.Optional.flatMap(Optional.java:294) ~[na:na]
+	at com.scenwise.web.DB.SiteMeasurementDAO.getCombinedJsonStr(SiteMeasurementDAO.java:58) ~[main/:na]
+	at com.scenwise.web.WebApplication.results(WebApplication.java:34) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-09-30 10:18:04.519  INFO 245 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:18:04.523 ERROR 245 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : null
+
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221) ~[na:na]
+	at java.base/java.util.Optional.<init>(Optional.java:107) ~[na:na]
+	at java.base/java.util.Optional.of(Optional.java:120) ~[na:na]
+	at com.scenwise.web.DB.SiteMeasurementDAO.lambda$getCombinedJsonStr$1(SiteMeasurementDAO.java:75) ~[main/:na]
+	at java.base/java.util.Optional.flatMap(Optional.java:294) ~[na:na]
+	at com.scenwise.web.DB.SiteMeasurementDAO.getCombinedJsonStr(SiteMeasurementDAO.java:58) ~[main/:na]
+	at com.scenwise.web.WebApplication.results(WebApplication.java:34) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-09-30 10:21:12.610  INFO 330 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 684d08ec3a45 with PID 330 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:21:12.611  INFO 330 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:21:13.047  INFO 330 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:21:13.053  INFO 330 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:21:13.053  INFO 330 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:21:13.097  INFO 330 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:21:13.097  INFO 330 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 457 ms
+2022-09-30 10:21:13.260  INFO 330 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:21:13.267  INFO 330 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.894 seconds (JVM running for 1.105)
+2022-09-30 10:21:18.379  INFO 330 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:21:18.379  INFO 330 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:21:18.380  INFO 330 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-30 10:21:18.401  INFO 330 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:21:36.544  INFO 330 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:23:51.872  INFO 325 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 6ec3088d83ed with PID 325 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:23:51.874  INFO 325 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:23:52.327  INFO 325 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:23:52.333  INFO 325 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:23:52.333  INFO 325 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:23:52.380  INFO 325 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:23:52.380  INFO 325 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 478 ms
+2022-09-30 10:23:52.560  INFO 325 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:23:52.568  INFO 325 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.927 seconds (JVM running for 1.171)
+2022-09-30 10:23:57.323  INFO 325 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:23:57.323  INFO 325 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:23:57.324  INFO 325 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 10:23:57.343  INFO 325 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:33:49.615  INFO 332 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 5a6dea7d3272 with PID 332 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:33:49.616  INFO 332 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:33:50.055  INFO 332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:33:50.060  INFO 332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:33:50.061  INFO 332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:33:50.105  INFO 332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:33:50.105  INFO 332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 460 ms
+2022-09-30 10:33:50.273  INFO 332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:33:50.281  INFO 332 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.891 seconds (JVM running for 1.082)
+2022-09-30 10:34:05.925  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 1000 lookups done.
+2022-09-30 10:34:20.397  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 2000 lookups done.
+2022-09-30 10:34:26.028  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 3000 lookups done.
+2022-09-30 10:34:30.698  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 4000 lookups done.
+2022-09-30 10:34:35.796  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 5000 lookups done.
+2022-09-30 10:34:44.981  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 6000 lookups done.
+2022-09-30 10:34:49.653  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 7000 lookups done.
+2022-09-30 10:34:54.217  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 8000 lookups done.
+2022-09-30 10:34:58.384  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 9000 lookups done.
+2022-09-30 10:35:02.461  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 10000 lookups done.
+2022-09-30 10:35:08.399  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 11000 lookups done.
+2022-09-30 10:35:13.504  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 12000 lookups done.
+2022-09-30 10:35:18.026  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 13000 lookups done.
+2022-09-30 10:35:23.411  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 14000 lookups done.
+2022-09-30 10:35:29.449  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 15000 lookups done.
+2022-09-30 10:35:33.508  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 16000 lookups done.
+2022-09-30 10:35:37.677  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 17000 lookups done.
+2022-09-30 10:35:41.772  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 18000 lookups done.
+2022-09-30 10:35:46.169  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 19000 lookups done.
+2022-09-30 10:35:50.308  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 20000 lookups done.
+2022-09-30 10:35:55.221  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 21000 lookups done.
+2022-09-30 10:35:59.253  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 22000 lookups done.
+2022-09-30 10:36:03.740  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 23000 lookups done.
+2022-09-30 10:36:07.697  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 24000 lookups done.
+2022-09-30 10:36:11.634  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 25000 lookups done.
+2022-09-30 10:36:15.592  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 26000 lookups done.
+2022-09-30 10:36:19.633  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 27000 lookups done.
+2022-09-30 10:36:23.624  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 28000 lookups done.
+2022-09-30 10:36:27.588  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 29000 lookups done.
+2022-09-30 10:36:31.625  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 30000 lookups done.
+2022-09-30 10:36:35.580  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 31000 lookups done.
+2022-09-30 10:36:39.554  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 32000 lookups done.
+2022-09-30 10:36:43.517  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 33000 lookups done.
+2022-09-30 10:36:47.446  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 34000 lookups done.
+2022-09-30 10:36:51.406  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 35000 lookups done.
+2022-09-30 10:36:55.382  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 36000 lookups done.
+2022-09-30 10:37:14.410  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 37000 lookups done.
+2022-09-30 10:37:21.255  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 38000 lookups done.
+2022-09-30 10:37:25.413  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 39000 lookups done.
+2022-09-30 10:37:29.436  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 40000 lookups done.
+2022-09-30 10:37:33.417  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 41000 lookups done.
+2022-09-30 10:37:37.402  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 42000 lookups done.
+2022-09-30 10:37:41.364  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 43000 lookups done.
+2022-09-30 10:37:45.330  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 44000 lookups done.
+2022-09-30 10:37:49.324  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 45000 lookups done.
+2022-09-30 10:37:53.348  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 46000 lookups done.
+2022-09-30 10:37:57.319  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 47000 lookups done.
+2022-09-30 10:38:01.267  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 48000 lookups done.
+2022-09-30 10:38:05.224  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 49000 lookups done.
+2022-09-30 10:38:09.199  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 50000 lookups done.
+2022-09-30 10:38:13.159  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 51000 lookups done.
+2022-09-30 10:38:17.120  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 52000 lookups done.
+2022-09-30 10:38:21.091  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 53000 lookups done.
+2022-09-30 10:38:25.041  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 54000 lookups done.
+2022-09-30 10:38:28.947  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 55000 lookups done.
+2022-09-30 10:38:32.848  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 56000 lookups done.
+2022-09-30 10:38:36.732  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 57000 lookups done.
+2022-09-30 10:38:40.653  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 58000 lookups done.
+2022-09-30 10:38:44.543  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 59000 lookups done.
+2022-09-30 10:38:48.429  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 60000 lookups done.
+2022-09-30 10:38:52.335  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 61000 lookups done.
+2022-09-30 10:38:56.242  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 62000 lookups done.
+2022-09-30 10:39:00.181  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 63000 lookups done.
+2022-09-30 10:39:04.097  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 64000 lookups done.
+2022-09-30 10:39:08.055  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 65000 lookups done.
+2022-09-30 10:39:11.994  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 66000 lookups done.
+2022-09-30 10:39:15.920  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 67000 lookups done.
+2022-09-30 10:39:19.851  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 68000 lookups done.
+2022-09-30 10:39:23.773  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 69000 lookups done.
+2022-09-30 10:39:27.572  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 70000 lookups done.
+2022-09-30 10:39:31.413  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 71000 lookups done.
+2022-09-30 10:39:35.261  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 72000 lookups done.
+2022-09-30 10:39:39.419  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 73000 lookups done.
+2022-09-30 10:39:43.304  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 74000 lookups done.
+2022-09-30 10:39:47.510  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 75000 lookups done.
+2022-09-30 10:39:52.127  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 76000 lookups done.
+2022-09-30 10:39:56.368  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 77000 lookups done.
+2022-09-30 10:40:00.711  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 78000 lookups done.
+2022-09-30 10:40:05.428  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 79000 lookups done.
+2022-09-30 10:40:09.443  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 80000 lookups done.
+2022-09-30 10:40:13.376  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 81000 lookups done.
+2022-09-30 10:40:17.251  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 82000 lookups done.
+2022-09-30 10:40:21.195  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 83000 lookups done.
+2022-09-30 10:40:25.608  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 84000 lookups done.
+2022-09-30 10:40:29.753  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 85000 lookups done.
+2022-09-30 10:40:33.626  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 86000 lookups done.
+2022-09-30 10:40:37.499  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 87000 lookups done.
+2022-09-30 10:40:42.733  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 88000 lookups done.
+2022-09-30 10:40:47.328  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 89000 lookups done.
+2022-09-30 10:40:51.238  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 90000 lookups done.
+2022-09-30 10:40:55.136  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 91000 lookups done.
+2022-09-30 10:40:59.057  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 92000 lookups done.
+2022-09-30 10:41:03.364  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 93000 lookups done.
+2022-09-30 10:41:07.438  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 94000 lookups done.
+2022-09-30 10:41:11.632  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 95000 lookups done.
+2022-09-30 10:41:15.569  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 96000 lookups done.
+2022-09-30 10:41:19.496  INFO 332 --- [main] com.scenwise.web.ReverseGeoCoder         : 97000 lookups done.
+2022-09-30 10:41:23.478  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 500 added to execution plan.
+2022-09-30 10:41:23.486  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 1000 added to execution plan.
+2022-09-30 10:41:23.494  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 1500 added to execution plan.
+2022-09-30 10:41:23.501  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 2000 added to execution plan.
+2022-09-30 10:41:23.508  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 2500 added to execution plan.
+2022-09-30 10:41:23.516  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 3000 added to execution plan.
+2022-09-30 10:41:23.523  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 3500 added to execution plan.
+2022-09-30 10:41:23.530  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 4000 added to execution plan.
+2022-09-30 10:41:23.537  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 4500 added to execution plan.
+2022-09-30 10:41:23.544  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 5000 added to execution plan.
+2022-09-30 10:41:23.551  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 5500 added to execution plan.
+2022-09-30 10:41:23.559  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 6000 added to execution plan.
+2022-09-30 10:41:23.566  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 6500 added to execution plan.
+2022-09-30 10:41:23.573  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 7000 added to execution plan.
+2022-09-30 10:41:23.581  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 7500 added to execution plan.
+2022-09-30 10:41:23.588  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 8000 added to execution plan.
+2022-09-30 10:41:23.595  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 8500 added to execution plan.
+2022-09-30 10:41:23.603  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 9000 added to execution plan.
+2022-09-30 10:41:23.610  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 9500 added to execution plan.
+2022-09-30 10:41:23.618  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 10000 added to execution plan.
+2022-09-30 10:41:23.625  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 10500 added to execution plan.
+2022-09-30 10:41:23.632  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 11000 added to execution plan.
+2022-09-30 10:41:23.640  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 11500 added to execution plan.
+2022-09-30 10:41:23.647  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 12000 added to execution plan.
+2022-09-30 10:41:23.654  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 12500 added to execution plan.
+2022-09-30 10:41:23.662  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 13000 added to execution plan.
+2022-09-30 10:41:23.669  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 13500 added to execution plan.
+2022-09-30 10:41:23.677  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 14000 added to execution plan.
+2022-09-30 10:41:23.684  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 14500 added to execution plan.
+2022-09-30 10:41:23.692  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 15000 added to execution plan.
+2022-09-30 10:41:23.699  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 15500 added to execution plan.
+2022-09-30 10:41:23.706  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 16000 added to execution plan.
+2022-09-30 10:41:23.714  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 16500 added to execution plan.
+2022-09-30 10:41:23.721  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 17000 added to execution plan.
+2022-09-30 10:41:23.729  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 17500 added to execution plan.
+2022-09-30 10:41:23.736  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 18000 added to execution plan.
+2022-09-30 10:41:23.744  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 18500 added to execution plan.
+2022-09-30 10:41:23.751  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 19000 added to execution plan.
+2022-09-30 10:41:23.758  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 19500 added to execution plan.
+2022-09-30 10:41:23.765  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 20000 added to execution plan.
+2022-09-30 10:41:23.772  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 20500 added to execution plan.
+2022-09-30 10:41:23.779  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 21000 added to execution plan.
+2022-09-30 10:41:23.786  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 21500 added to execution plan.
+2022-09-30 10:41:23.793  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 22000 added to execution plan.
+2022-09-30 10:41:23.799  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 22500 added to execution plan.
+2022-09-30 10:41:23.806  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 23000 added to execution plan.
+2022-09-30 10:41:23.813  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 23500 added to execution plan.
+2022-09-30 10:41:23.819  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 24000 added to execution plan.
+2022-09-30 10:41:23.825  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 24500 added to execution plan.
+2022-09-30 10:41:23.832  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 25000 added to execution plan.
+2022-09-30 10:41:23.839  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 25500 added to execution plan.
+2022-09-30 10:41:23.846  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 26000 added to execution plan.
+2022-09-30 10:41:23.852  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 26500 added to execution plan.
+2022-09-30 10:41:23.859  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 27000 added to execution plan.
+2022-09-30 10:41:23.865  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 27500 added to execution plan.
+2022-09-30 10:41:23.872  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 28000 added to execution plan.
+2022-09-30 10:41:23.880  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 28500 added to execution plan.
+2022-09-30 10:41:23.887  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 29000 added to execution plan.
+2022-09-30 10:41:23.894  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 29500 added to execution plan.
+2022-09-30 10:41:23.901  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 30000 added to execution plan.
+2022-09-30 10:41:23.908  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 30500 added to execution plan.
+2022-09-30 10:41:23.916  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 31000 added to execution plan.
+2022-09-30 10:41:23.923  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 31500 added to execution plan.
+2022-09-30 10:41:23.931  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 32000 added to execution plan.
+2022-09-30 10:41:23.938  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 32500 added to execution plan.
+2022-09-30 10:41:23.944  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 33000 added to execution plan.
+2022-09-30 10:41:23.951  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 33500 added to execution plan.
+2022-09-30 10:41:23.959  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 34000 added to execution plan.
+2022-09-30 10:41:23.966  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 34500 added to execution plan.
+2022-09-30 10:41:23.973  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 35000 added to execution plan.
+2022-09-30 10:41:23.981  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 35500 added to execution plan.
+2022-09-30 10:41:23.988  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 36000 added to execution plan.
+2022-09-30 10:41:23.995  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 36500 added to execution plan.
+2022-09-30 10:41:24.002  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 37000 added to execution plan.
+2022-09-30 10:41:24.009  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 37500 added to execution plan.
+2022-09-30 10:41:24.016  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 38000 added to execution plan.
+2022-09-30 10:41:24.022  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 38500 added to execution plan.
+2022-09-30 10:41:24.029  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 39000 added to execution plan.
+2022-09-30 10:41:24.036  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 39500 added to execution plan.
+2022-09-30 10:41:24.043  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 40000 added to execution plan.
+2022-09-30 10:41:24.050  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 40500 added to execution plan.
+2022-09-30 10:41:24.056  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 41000 added to execution plan.
+2022-09-30 10:41:24.063  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 41500 added to execution plan.
+2022-09-30 10:41:24.070  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 42000 added to execution plan.
+2022-09-30 10:41:24.077  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 42500 added to execution plan.
+2022-09-30 10:41:24.085  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 43000 added to execution plan.
+2022-09-30 10:41:24.092  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 43500 added to execution plan.
+2022-09-30 10:41:24.099  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 44000 added to execution plan.
+2022-09-30 10:41:24.106  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 44500 added to execution plan.
+2022-09-30 10:41:24.152  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 45000 added to execution plan.
+2022-09-30 10:41:24.159  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 45500 added to execution plan.
+2022-09-30 10:41:24.166  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 46000 added to execution plan.
+2022-09-30 10:41:24.173  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 46500 added to execution plan.
+2022-09-30 10:41:24.180  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 47000 added to execution plan.
+2022-09-30 10:41:24.187  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 47500 added to execution plan.
+2022-09-30 10:41:24.194  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 48000 added to execution plan.
+2022-09-30 10:41:24.201  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 48500 added to execution plan.
+2022-09-30 10:41:24.208  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 49000 added to execution plan.
+2022-09-30 10:41:24.216  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 49500 added to execution plan.
+2022-09-30 10:41:24.223  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 50000 added to execution plan.
+2022-09-30 10:41:24.231  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 50500 added to execution plan.
+2022-09-30 10:41:24.238  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 51000 added to execution plan.
+2022-09-30 10:41:24.246  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 51500 added to execution plan.
+2022-09-30 10:41:24.253  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 52000 added to execution plan.
+2022-09-30 10:41:24.260  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 52500 added to execution plan.
+2022-09-30 10:41:24.268  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 53000 added to execution plan.
+2022-09-30 10:41:24.275  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 53500 added to execution plan.
+2022-09-30 10:41:24.283  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 54000 added to execution plan.
+2022-09-30 10:41:24.291  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 54500 added to execution plan.
+2022-09-30 10:41:24.299  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 55000 added to execution plan.
+2022-09-30 10:41:24.306  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 55500 added to execution plan.
+2022-09-30 10:41:24.314  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 56000 added to execution plan.
+2022-09-30 10:41:24.322  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 56500 added to execution plan.
+2022-09-30 10:41:24.329  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 57000 added to execution plan.
+2022-09-30 10:41:24.337  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 57500 added to execution plan.
+2022-09-30 10:41:24.345  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 58000 added to execution plan.
+2022-09-30 10:41:24.386  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 58500 added to execution plan.
+2022-09-30 10:41:24.393  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 59000 added to execution plan.
+2022-09-30 10:41:24.401  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 59500 added to execution plan.
+2022-09-30 10:41:24.408  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 60000 added to execution plan.
+2022-09-30 10:41:24.416  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 60500 added to execution plan.
+2022-09-30 10:41:24.424  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 61000 added to execution plan.
+2022-09-30 10:41:24.432  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 61500 added to execution plan.
+2022-09-30 10:41:24.440  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 62000 added to execution plan.
+2022-09-30 10:41:24.447  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 62500 added to execution plan.
+2022-09-30 10:41:24.455  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 63000 added to execution plan.
+2022-09-30 10:41:24.463  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 63500 added to execution plan.
+2022-09-30 10:41:24.470  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 64000 added to execution plan.
+2022-09-30 10:41:24.478  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 64500 added to execution plan.
+2022-09-30 10:41:24.485  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 65000 added to execution plan.
+2022-09-30 10:41:24.493  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 65500 added to execution plan.
+2022-09-30 10:41:24.500  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 66000 added to execution plan.
+2022-09-30 10:41:24.508  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 66500 added to execution plan.
+2022-09-30 10:41:24.516  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 67000 added to execution plan.
+2022-09-30 10:41:24.523  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 67500 added to execution plan.
+2022-09-30 10:41:24.531  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 68000 added to execution plan.
+2022-09-30 10:41:24.539  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 68500 added to execution plan.
+2022-09-30 10:41:24.547  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 69000 added to execution plan.
+2022-09-30 10:41:24.553  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 69500 added to execution plan.
+2022-09-30 10:41:24.560  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 70000 added to execution plan.
+2022-09-30 10:41:24.566  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 70500 added to execution plan.
+2022-09-30 10:41:24.572  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 71000 added to execution plan.
+2022-09-30 10:41:24.579  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 71500 added to execution plan.
+2022-09-30 10:41:24.619  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 72000 added to execution plan.
+2022-09-30 10:41:24.625  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 72500 added to execution plan.
+2022-09-30 10:41:24.631  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 73000 added to execution plan.
+2022-09-30 10:41:24.638  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 73500 added to execution plan.
+2022-09-30 10:41:24.645  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 74000 added to execution plan.
+2022-09-30 10:41:24.651  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 74500 added to execution plan.
+2022-09-30 10:41:24.658  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 75000 added to execution plan.
+2022-09-30 10:41:24.664  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 75500 added to execution plan.
+2022-09-30 10:41:24.670  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 76000 added to execution plan.
+2022-09-30 10:41:24.677  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 76500 added to execution plan.
+2022-09-30 10:41:24.684  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 77000 added to execution plan.
+2022-09-30 10:41:24.691  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 77500 added to execution plan.
+2022-09-30 10:41:24.698  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 78000 added to execution plan.
+2022-09-30 10:41:24.705  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 78500 added to execution plan.
+2022-09-30 10:41:24.712  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 79000 added to execution plan.
+2022-09-30 10:41:24.719  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 79500 added to execution plan.
+2022-09-30 10:41:24.726  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 80000 added to execution plan.
+2022-09-30 10:41:24.734  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 80500 added to execution plan.
+2022-09-30 10:41:24.741  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 81000 added to execution plan.
+2022-09-30 10:41:24.748  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 81500 added to execution plan.
+2022-09-30 10:41:24.755  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 82000 added to execution plan.
+2022-09-30 10:41:24.762  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 82500 added to execution plan.
+2022-09-30 10:41:24.769  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 83000 added to execution plan.
+2022-09-30 10:41:24.777  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 83500 added to execution plan.
+2022-09-30 10:41:24.784  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 84000 added to execution plan.
+2022-09-30 10:41:24.791  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 84500 added to execution plan.
+2022-09-30 10:41:24.798  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 85000 added to execution plan.
+2022-09-30 10:41:24.805  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 85500 added to execution plan.
+2022-09-30 10:41:24.813  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 86000 added to execution plan.
+2022-09-30 10:41:24.820  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 86500 added to execution plan.
+2022-09-30 10:41:24.827  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 87000 added to execution plan.
+2022-09-30 10:41:24.834  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 87500 added to execution plan.
+2022-09-30 10:41:24.841  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 88000 added to execution plan.
+2022-09-30 10:41:24.849  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 88500 added to execution plan.
+2022-09-30 10:41:24.856  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 89000 added to execution plan.
+2022-09-30 10:41:24.863  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 89500 added to execution plan.
+2022-09-30 10:41:24.870  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 90000 added to execution plan.
+2022-09-30 10:41:24.877  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 90500 added to execution plan.
+2022-09-30 10:41:24.885  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 91000 added to execution plan.
+2022-09-30 10:41:24.892  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 91500 added to execution plan.
+2022-09-30 10:41:24.899  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 92000 added to execution plan.
+2022-09-30 10:41:24.906  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 92500 added to execution plan.
+2022-09-30 10:41:24.913  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 93000 added to execution plan.
+2022-09-30 10:41:24.920  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 93500 added to execution plan.
+2022-09-30 10:41:24.927  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 94000 added to execution plan.
+2022-09-30 10:41:24.934  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 94500 added to execution plan.
+2022-09-30 10:41:24.941  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 95000 added to execution plan.
+2022-09-30 10:41:24.948  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 95500 added to execution plan.
+2022-09-30 10:41:24.955  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 96000 added to execution plan.
+2022-09-30 10:41:24.962  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 96500 added to execution plan.
+2022-09-30 10:41:24.968  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 97000 added to execution plan.
+2022-09-30 10:41:24.974  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 97500 added to execution plan.
+2022-09-30 10:41:24.980  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 97955 added to execution plan.
+2022-09-30 10:41:26.033  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 500 added to execution plan.
+2022-09-30 10:41:26.040  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 1000 added to execution plan.
+2022-09-30 10:41:26.047  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 1500 added to execution plan.
+2022-09-30 10:41:26.054  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 2000 added to execution plan.
+2022-09-30 10:41:26.060  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 2500 added to execution plan.
+2022-09-30 10:41:26.067  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 3000 added to execution plan.
+2022-09-30 10:41:26.074  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 3500 added to execution plan.
+2022-09-30 10:41:26.081  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 4000 added to execution plan.
+2022-09-30 10:41:26.088  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 4500 added to execution plan.
+2022-09-30 10:41:26.095  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 5000 added to execution plan.
+2022-09-30 10:41:26.103  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 5500 added to execution plan.
+2022-09-30 10:41:26.111  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 6000 added to execution plan.
+2022-09-30 10:41:26.119  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 6500 added to execution plan.
+2022-09-30 10:41:26.126  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 7000 added to execution plan.
+2022-09-30 10:41:26.134  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 7500 added to execution plan.
+2022-09-30 10:41:26.142  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 8000 added to execution plan.
+2022-09-30 10:41:26.151  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 8500 added to execution plan.
+2022-09-30 10:41:26.159  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 9000 added to execution plan.
+2022-09-30 10:41:26.167  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 9500 added to execution plan.
+2022-09-30 10:41:26.175  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 10000 added to execution plan.
+2022-09-30 10:41:26.183  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 10500 added to execution plan.
+2022-09-30 10:41:26.191  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 11000 added to execution plan.
+2022-09-30 10:41:26.199  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 11500 added to execution plan.
+2022-09-30 10:41:26.207  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 12000 added to execution plan.
+2022-09-30 10:41:26.216  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 12500 added to execution plan.
+2022-09-30 10:41:26.224  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 13000 added to execution plan.
+2022-09-30 10:41:26.233  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 13500 added to execution plan.
+2022-09-30 10:41:26.241  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 14000 added to execution plan.
+2022-09-30 10:41:26.249  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 14500 added to execution plan.
+2022-09-30 10:41:26.258  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 15000 added to execution plan.
+2022-09-30 10:41:26.266  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 15500 added to execution plan.
+2022-09-30 10:41:26.274  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 16000 added to execution plan.
+2022-09-30 10:41:26.282  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 16500 added to execution plan.
+2022-09-30 10:41:26.290  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 17000 added to execution plan.
+2022-09-30 10:41:26.297  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 17500 added to execution plan.
+2022-09-30 10:41:26.304  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 18000 added to execution plan.
+2022-09-30 10:41:26.309  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 18419 added to execution plan.
+2022-09-30 10:41:27.612  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 500 added to execution plan.
+2022-09-30 10:41:27.619  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 1000 added to execution plan.
+2022-09-30 10:41:27.625  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 1500 added to execution plan.
+2022-09-30 10:41:27.633  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 2000 added to execution plan.
+2022-09-30 10:41:27.639  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 2500 added to execution plan.
+2022-09-30 10:41:27.646  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 3000 added to execution plan.
+2022-09-30 10:41:27.653  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 3500 added to execution plan.
+2022-09-30 10:41:27.660  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 4000 added to execution plan.
+2022-09-30 10:41:27.667  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 4500 added to execution plan.
+2022-09-30 10:41:27.674  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 5000 added to execution plan.
+2022-09-30 10:41:27.681  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 5500 added to execution plan.
+2022-09-30 10:41:27.688  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 6000 added to execution plan.
+2022-09-30 10:41:27.695  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 6500 added to execution plan.
+2022-09-30 10:41:27.702  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 7000 added to execution plan.
+2022-09-30 10:41:27.709  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 7500 added to execution plan.
+2022-09-30 10:41:27.716  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 8000 added to execution plan.
+2022-09-30 10:41:27.723  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 8500 added to execution plan.
+2022-09-30 10:41:27.730  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 9000 added to execution plan.
+2022-09-30 10:41:27.737  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 9500 added to execution plan.
+2022-09-30 10:41:27.744  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 10000 added to execution plan.
+2022-09-30 10:41:27.751  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 10500 added to execution plan.
+2022-09-30 10:41:27.758  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 11000 added to execution plan.
+2022-09-30 10:41:27.765  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 11500 added to execution plan.
+2022-09-30 10:41:27.772  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 12000 added to execution plan.
+2022-09-30 10:41:27.779  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 12500 added to execution plan.
+2022-09-30 10:41:27.786  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 13000 added to execution plan.
+2022-09-30 10:41:27.793  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 13500 added to execution plan.
+2022-09-30 10:41:27.800  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 14000 added to execution plan.
+2022-09-30 10:41:27.812  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 14500 added to execution plan.
+2022-09-30 10:41:27.819  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 15000 added to execution plan.
+2022-09-30 10:41:27.827  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 15500 added to execution plan.
+2022-09-30 10:41:27.834  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 16000 added to execution plan.
+2022-09-30 10:41:27.841  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 16500 added to execution plan.
+2022-09-30 10:41:27.848  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 17000 added to execution plan.
+2022-09-30 10:41:27.855  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 17500 added to execution plan.
+2022-09-30 10:41:27.863  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 18000 added to execution plan.
+2022-09-30 10:41:27.870  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 18500 added to execution plan.
+2022-09-30 10:41:27.877  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 19000 added to execution plan.
+2022-09-30 10:41:27.884  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 19500 added to execution plan.
+2022-09-30 10:41:27.891  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 20000 added to execution plan.
+2022-09-30 10:41:27.898  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 20500 added to execution plan.
+2022-09-30 10:41:27.905  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 21000 added to execution plan.
+2022-09-30 10:41:27.912  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 21500 added to execution plan.
+2022-09-30 10:41:27.919  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 22000 added to execution plan.
+2022-09-30 10:41:27.926  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 22500 added to execution plan.
+2022-09-30 10:41:27.934  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 23000 added to execution plan.
+2022-09-30 10:41:27.941  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 23500 added to execution plan.
+2022-09-30 10:41:27.948  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 24000 added to execution plan.
+2022-09-30 10:41:27.955  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 24500 added to execution plan.
+2022-09-30 10:41:27.963  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 25000 added to execution plan.
+2022-09-30 10:41:27.970  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 25500 added to execution plan.
+2022-09-30 10:41:27.977  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 26000 added to execution plan.
+2022-09-30 10:41:27.984  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 26500 added to execution plan.
+2022-09-30 10:41:27.991  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 27000 added to execution plan.
+2022-09-30 10:41:27.999  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 27500 added to execution plan.
+2022-09-30 10:41:28.006  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 28000 added to execution plan.
+2022-09-30 10:41:28.013  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 28500 added to execution plan.
+2022-09-30 10:41:28.021  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 29000 added to execution plan.
+2022-09-30 10:41:28.028  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 29500 added to execution plan.
+2022-09-30 10:41:28.036  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 30000 added to execution plan.
+2022-09-30 10:41:28.043  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 30500 added to execution plan.
+2022-09-30 10:41:28.051  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 31000 added to execution plan.
+2022-09-30 10:41:28.058  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 31500 added to execution plan.
+2022-09-30 10:41:28.065  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 32000 added to execution plan.
+2022-09-30 10:41:28.073  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 32500 added to execution plan.
+2022-09-30 10:41:28.112  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 33000 added to execution plan.
+2022-09-30 10:41:28.120  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 33500 added to execution plan.
+2022-09-30 10:41:28.127  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 34000 added to execution plan.
+2022-09-30 10:41:28.135  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 34500 added to execution plan.
+2022-09-30 10:41:28.142  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 35000 added to execution plan.
+2022-09-30 10:41:28.149  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 35500 added to execution plan.
+2022-09-30 10:41:28.157  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 36000 added to execution plan.
+2022-09-30 10:41:28.164  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 36500 added to execution plan.
+2022-09-30 10:41:28.171  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 37000 added to execution plan.
+2022-09-30 10:41:28.178  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 37500 added to execution plan.
+2022-09-30 10:41:28.185  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 38000 added to execution plan.
+2022-09-30 10:41:28.193  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 38500 added to execution plan.
+2022-09-30 10:41:28.200  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 39000 added to execution plan.
+2022-09-30 10:41:28.207  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 39500 added to execution plan.
+2022-09-30 10:41:28.215  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 40000 added to execution plan.
+2022-09-30 10:41:28.222  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 40500 added to execution plan.
+2022-09-30 10:41:28.229  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 41000 added to execution plan.
+2022-09-30 10:41:28.237  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 41500 added to execution plan.
+2022-09-30 10:41:28.244  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 42000 added to execution plan.
+2022-09-30 10:41:28.252  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 42500 added to execution plan.
+2022-09-30 10:41:28.259  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 43000 added to execution plan.
+2022-09-30 10:41:28.266  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 43500 added to execution plan.
+2022-09-30 10:41:28.273  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 44000 added to execution plan.
+2022-09-30 10:41:28.281  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 44500 added to execution plan.
+2022-09-30 10:41:28.288  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 45000 added to execution plan.
+2022-09-30 10:41:28.295  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 45500 added to execution plan.
+2022-09-30 10:41:28.302  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 46000 added to execution plan.
+2022-09-30 10:41:28.310  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 46500 added to execution plan.
+2022-09-30 10:41:28.343  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 47000 added to execution plan.
+2022-09-30 10:41:28.351  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 47500 added to execution plan.
+2022-09-30 10:41:28.358  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 48000 added to execution plan.
+2022-09-30 10:41:28.365  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 48500 added to execution plan.
+2022-09-30 10:41:28.372  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 49000 added to execution plan.
+2022-09-30 10:41:28.379  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 49500 added to execution plan.
+2022-09-30 10:41:28.387  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 50000 added to execution plan.
+2022-09-30 10:41:28.394  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 50500 added to execution plan.
+2022-09-30 10:41:28.401  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 51000 added to execution plan.
+2022-09-30 10:41:28.408  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 51500 added to execution plan.
+2022-09-30 10:41:28.416  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 52000 added to execution plan.
+2022-09-30 10:41:28.423  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 52500 added to execution plan.
+2022-09-30 10:41:28.431  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 53000 added to execution plan.
+2022-09-30 10:41:28.438  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 53500 added to execution plan.
+2022-09-30 10:41:28.446  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 54000 added to execution plan.
+2022-09-30 10:41:28.453  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 54500 added to execution plan.
+2022-09-30 10:41:28.460  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 55000 added to execution plan.
+2022-09-30 10:41:28.467  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 55500 added to execution plan.
+2022-09-30 10:41:28.475  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 56000 added to execution plan.
+2022-09-30 10:41:28.482  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 56500 added to execution plan.
+2022-09-30 10:41:28.490  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 57000 added to execution plan.
+2022-09-30 10:41:28.497  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 57500 added to execution plan.
+2022-09-30 10:41:28.504  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 58000 added to execution plan.
+2022-09-30 10:41:28.511  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 58500 added to execution plan.
+2022-09-30 10:41:28.519  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 59000 added to execution plan.
+2022-09-30 10:41:28.526  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 59500 added to execution plan.
+2022-09-30 10:41:28.533  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 60000 added to execution plan.
+2022-09-30 10:41:28.541  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 60500 added to execution plan.
+2022-09-30 10:41:28.548  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 61000 added to execution plan.
+2022-09-30 10:41:28.555  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 61500 added to execution plan.
+2022-09-30 10:41:28.563  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 62000 added to execution plan.
+2022-09-30 10:41:28.570  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 62500 added to execution plan.
+2022-09-30 10:41:28.577  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 63000 added to execution plan.
+2022-09-30 10:41:28.584  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 63500 added to execution plan.
+2022-09-30 10:41:28.591  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 64000 added to execution plan.
+2022-09-30 10:41:28.598  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 64500 added to execution plan.
+2022-09-30 10:41:28.605  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 65000 added to execution plan.
+2022-09-30 10:41:28.612  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 65500 added to execution plan.
+2022-09-30 10:41:28.825  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 66000 added to execution plan.
+2022-09-30 10:41:28.832  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 66500 added to execution plan.
+2022-09-30 10:41:28.840  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 67000 added to execution plan.
+2022-09-30 10:41:28.847  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 67500 added to execution plan.
+2022-09-30 10:41:28.854  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 68000 added to execution plan.
+2022-09-30 10:41:28.861  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 68500 added to execution plan.
+2022-09-30 10:41:28.868  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 69000 added to execution plan.
+2022-09-30 10:41:28.876  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 69500 added to execution plan.
+2022-09-30 10:41:28.883  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 70000 added to execution plan.
+2022-09-30 10:41:28.891  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 70500 added to execution plan.
+2022-09-30 10:41:28.898  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 71000 added to execution plan.
+2022-09-30 10:41:28.906  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 71500 added to execution plan.
+2022-09-30 10:41:28.913  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 72000 added to execution plan.
+2022-09-30 10:41:28.920  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 72500 added to execution plan.
+2022-09-30 10:41:28.927  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 73000 added to execution plan.
+2022-09-30 10:41:28.935  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 73500 added to execution plan.
+2022-09-30 10:41:28.943  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 74000 added to execution plan.
+2022-09-30 10:41:28.950  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 74500 added to execution plan.
+2022-09-30 10:41:28.958  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 75000 added to execution plan.
+2022-09-30 10:41:28.966  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 75500 added to execution plan.
+2022-09-30 10:41:28.974  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 76000 added to execution plan.
+2022-09-30 10:41:28.982  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 76500 added to execution plan.
+2022-09-30 10:41:28.990  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 77000 added to execution plan.
+2022-09-30 10:41:28.998  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 77500 added to execution plan.
+2022-09-30 10:41:29.006  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 78000 added to execution plan.
+2022-09-30 10:41:29.015  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 78500 added to execution plan.
+2022-09-30 10:41:29.023  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 79000 added to execution plan.
+2022-09-30 10:41:29.030  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 79500 added to execution plan.
+2022-09-30 10:41:29.031  INFO 332 --- [main] com.scenwise.web.DB.MeasurementDAO       : 79536 added to execution plan.
+2022-09-30 10:41:29.056  INFO 332 --- [main] com.scenwise.web.DB.SiteMeasurementDAO   : 458770ms for initial setup
+2022-09-30 10:42:51.078  INFO 332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:42:51.079  INFO 332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:42:51.079  INFO 332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-30 10:42:51.091  INFO 332 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:43:27.482  INFO 332 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:43:31.653  INFO 332 --- [http-nio-8080-exec-3] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:47:06.691  INFO 330 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on f873ea45ff8b with PID 330 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:47:06.692  INFO 330 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:47:07.116  INFO 330 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:47:07.121  INFO 330 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:47:07.121  INFO 330 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:47:07.165  INFO 330 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:47:07.165  INFO 330 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 444 ms
+2022-09-30 10:47:07.326  INFO 330 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:47:07.333  INFO 330 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.856 seconds (JVM running for 1.069)
+2022-09-30 10:47:33.800  INFO 330 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:47:33.800  INFO 330 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:47:33.801  INFO 330 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 10:47:33.818  INFO 330 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:47:48.266  INFO 330 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:52:04.735  INFO 316 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on affd45772484 with PID 316 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:52:04.737  INFO 316 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:52:05.161  INFO 316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:52:05.167  INFO 316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:52:05.167  INFO 316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:52:05.211  INFO 316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:52:05.211  INFO 316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 447 ms
+2022-09-30 10:52:05.372  INFO 316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:52:05.380  INFO 316 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.856 seconds (JVM running for 1.068)
+2022-09-30 10:52:10.317  INFO 316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:52:10.317  INFO 316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:52:10.318  INFO 316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-30 10:52:10.336  INFO 316 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:52:13.832  INFO 316 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:54:25.204  INFO 325 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 4a729adcc027 with PID 325 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:54:25.206  INFO 325 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:54:25.642  INFO 325 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:54:25.648  INFO 325 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:54:25.648  INFO 325 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:54:25.693  INFO 325 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:54:25.693  INFO 325 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 459 ms
+2022-09-30 10:54:25.866  INFO 325 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:54:25.874  INFO 325 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.89 seconds (JVM running for 1.107)
+2022-09-30 10:54:30.176  INFO 325 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:54:30.177  INFO 325 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:54:30.178  INFO 325 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 10:54:30.195  INFO 325 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:56:49.589  INFO 324 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 6c710e66d8b1 with PID 324 (/app/build/classes/java/main started by root in /app)
+2022-09-30 10:56:49.591  INFO 324 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 10:56:50.034  INFO 324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 10:56:50.040  INFO 324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 10:56:50.040  INFO 324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 10:56:50.086  INFO 324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 10:56:50.086  INFO 324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 466 ms
+2022-09-30 10:56:50.255  INFO 324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 10:56:50.263  INFO 324 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.902 seconds (JVM running for 1.121)
+2022-09-30 10:56:57.995  INFO 324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 10:56:57.996  INFO 324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 10:56:57.996  INFO 324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-30 10:56:58.015  INFO 324 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 10:56:59.137  INFO 324 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : 0ms to query.
+2022-09-30 11:11:16.584  INFO 323 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on 7f1c3cc8fb3c with PID 323 (/app/build/classes/java/main started by root in /app)
+2022-09-30 11:11:16.585  INFO 323 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:11:17.012  INFO 323 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:11:17.018  INFO 323 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:11:17.018  INFO 323 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:11:17.062  INFO 323 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:11:17.062  INFO 323 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 450 ms
+2022-09-30 11:11:17.223  INFO 323 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:11:17.231  INFO 323 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.863 seconds (JVM running for 1.076)
+2022-09-30 11:11:23.137  INFO 323 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-30 11:11:23.137  INFO 323 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-30 11:11:23.138  INFO 323 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-30 11:11:23.156  INFO 323 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 11:11:24.304  INFO 323 --- [http-nio-8080-exec-1] com.scenwise.web.DB.SiteMeasurementDAO   : 0ms to query.
+2022-09-30 11:11:27.932  INFO 323 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 11:11:27.932  INFO 323 --- [http-nio-8080-exec-2] com.scenwise.web.DB.SiteMeasurementDAO   : Serving from cache.
+2022-09-30 11:11:29.342  INFO 323 --- [http-nio-8080-exec-3] com.scenwise.web.DB.SiteMeasurementDAO   : GET getResults
+2022-09-30 11:11:29.343  INFO 323 --- [http-nio-8080-exec-3] com.scenwise.web.DB.SiteMeasurementDAO   : Serving from cache.
+2022-09-30 11:21:46.287  INFO 230 --- [main] com.scenwise.web.WebApplication          : Starting WebApplication using Java 11.0.16 on a0d48a92e5f8 with PID 230 (/app/build/classes/java/main started by root in /app)
+2022-09-30 11:21:46.289  INFO 230 --- [main] com.scenwise.web.WebApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 11:21:46.736  INFO 230 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-30 11:21:46.742  INFO 230 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-30 11:21:46.742  INFO 230 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-30 11:21:46.788  INFO 230 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-30 11:21:46.789  INFO 230 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 471 ms
+2022-09-30 11:21:46.953  INFO 230 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-30 11:21:46.960  INFO 230 --- [main] com.scenwise.web.WebApplication          : Started WebApplication in 0.899 seconds (JVM running for 1.123)
+2022-09-30 15:23:15.376  INFO 165672 --- [Test worker] com.scenwise.web.WebApplicationTests     : Starting WebApplicationTests using Java 11.0.16 on cohete-grande with PID 165672 (started by sam in /home/sam/project/web)
+2022-09-30 15:23:15.377  INFO 165672 --- [Test worker] com.scenwise.web.WebApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-09-30 15:23:16.193  INFO 165672 --- [Test worker] com.scenwise.web.WebApplicationTests     : Started WebApplicationTests in 1.033 seconds (JVM running for 1.761)

@@ -1,0 +1,9 @@
+web/bin
+web/HELP.md
+web/server_logs.log
+web/server_logs.log.lck
+web/sprin.log
+web/.vscode
+web/build
+web/src/build
+web/src/main/resources/xml
