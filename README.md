@@ -1,9 +1,9 @@
 # Traffic Parser
 
 ## How it works:
-The XML files are parsed using [https://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html](SAX Parser).
+The XML files are parsed using [SAX Parser](https://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html).
 
-The GPS values are fed to a locally running [https://nominatim.org/](Nominatim) server for reverse look ups.
+The GPS values are fed to a locally running [Nominatim](https://nominatim.org/) server for reverse look ups.
 The nominatim server only has data from Utrecht coordinates and therefore will return a valid value if the 
 coordinates of the site are in Utrecht. The docker compose file should wait a given amount for the nominatim
 server to come online (on initial set up). This can be configured in the the compose file (by setting the time out value
