@@ -15,4 +15,4 @@ With this data in hand, the values are (batch) inserted into three tables (see t
 Upon a GET request, this data is queries and served. The json value is psuedo cached for 10 minutes.
 
 On a 8 core machine, the Nominatim (one time) setup takes ~10 minutes and the querying ~12 minutes.
-On 4 VCPU the nominatim initial setup takes ~25 minutes and the querying.
+On 4 VCPU the nominatim initial setup and querying both take ~25 minutes each.
